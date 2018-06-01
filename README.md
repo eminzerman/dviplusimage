@@ -8,7 +8,7 @@ This software can be used as a tool for subjective experiments and psychometric 
 
 You can simply clone or download the project and run **dviplusimage** within Matlab. Details are presented in each m-file. There are three options:
 * **dviplusim.m** file is a single-file Matlab function which can be used to render HDR images. It only requires two files: *led_psf.mat* and *lcdGammaCorr.mat*.
-* **dviplusvid.m** file is a single-file Matlab function which can be used to render HDR images.
+* **dviplusvid.m** file is a single-file Matlab function which can be used to render HDR videos.
 * **dviplusimage** folder includes a multpile-file version of the same code. **dviplusimage\dviplusimage.m** can be used the same way as the fist option for natural images. Alternatively, **dviplusimage\dviplusimageTest.m** should be used for *test* images with sharp discontinuities (i.e. luminance masking, contrast studies).
 
 ### Dependencies
