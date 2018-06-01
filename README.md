@@ -11,6 +11,10 @@ You can simply clone or download the project and run **dviplusimage** within Mat
 * **dviplusvid.m** file is a single-file Matlab function which can be used to render HDR images.
 * **dviplusimage** folder includes a multpile-file version of the same code. **dviplusimage\dviplusimage.m** can be used the same way as the fist option for natural images. Alternatively, **dviplusimage\dviplusimageTest.m** should be used for *test* images with sharp discontinuities (i.e. luminance masking, contrast studies).
 
+### Dependencies
+
+The software only reads Radiance RGBE (**_.hdr_**), EXR (**_.exr_**) or PFM (**_.pfm_**) file formats at the moment. In order to read these file formats (and others), you need to download the [**HDR Toolbox**](https://github.com/banterle/HDR_Toolbox)
+
 ## Disclaimer
 
 Specifically, this particular version is developed considering SIM2 HDR47 E S4K model. The software was validated using only one SIM2 display. Therefore, special care may need to be taken for color calibration before using the software. 
