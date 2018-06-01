@@ -25,6 +25,6 @@ Although it is not tested, the rendering algorithm can also be used for other HD
 
 This software is provided under GNU General Public Licence.
 
-If you use this software for research purposes, please kindly cite our papers below:
+If you use this software for research purposes, we kindly ask you to cite our papers below:
 * E. Zerman, G. Valenzise, F. De Simone, F. Banterle, and F. Dufaux. **_"Effects of Display Rendering on HDR Image Quality Assessment."_** SPIE Optical Engineering+ Applications, Applications of Digital Image Processing XXXVIII, San Diego, CA, USA, August 2015.
 * E. Zerman, G. Valenzise, and F. Dufaux. **_"A Dual Modulation Algorithm for Accurate Reproduction of High Dynamic Range Video."_** IEEE 12th Image, Video, and Multidimensional Signal Processing Workshop (IVMSP), Bordeaux, France, July 2016.
