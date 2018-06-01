@@ -173,6 +173,8 @@ function [Ims, rFlag] = readHdrIm(imName, Params, Ims)
             end
         elseif strcmp(Ims.fileXt,'.exr')
             hdrIm = exrread(imName);
+        elseif strcmp(Ims.fileXt,'.pfm')
+            hdrIm = hdrimread(imName);
         else
             rFlag = 1;
         end
@@ -189,6 +191,8 @@ function [Ims, rFlag] = readHdrIm(imName, Params, Ims)
             end
         elseif strcmp(Ims.fileXt,'.exr')
             hdrIm = exrread([Params.folderName filesep imName]);
+        elseif strcmp(Ims.fileXt,'.pfm')
+            hdrIm = hdrimread([Params.fileFolderName filesep imName]);
         else
             rFlag = 1;
         end

@@ -102,6 +102,8 @@ for imNo = fileIndices
             end
         elseif strcmp(fileXt,'.exr')
             hdrIm = exrread(DbContents(imNo).name);
+        elseif strcmp(fileXt,'.pfm')
+            hdrIm = hdrimread(DbContents(imNo).name);
         else
             continue;
         end
@@ -118,6 +120,8 @@ for imNo = fileIndices
             end
         elseif strcmp(fileXt,'.exr')
             hdrIm = exrread([fileFolderName filesep DbContents(imNo).name]);
+        elseif strcmp(Ims.fileXt,'.pfm')
+            hdrIm = hdrimread([fileFolderName filesep DbContents(imNo).name]);
         else
             continue;
         end
